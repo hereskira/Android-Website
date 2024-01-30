@@ -1,0 +1,127 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter';
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+
+
+
+.navbar{
+    height: 70px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 50px;
+    padding-right: 50px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    position: fixed;
+    top: 0;
+    overflow: hidden;
+    background-color: white;
+    z-index: 1000;
+
+}
+
+
+
+.content{
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 70px;
+    top: 200px;
+    flex-direction: column;
+   
+}
+
+.logoPlaceholder img{
+    width: 138px;
+}
+
+.logoside img{
+    width: 125px;
+   
+}
+
+
+
+a{
+    text-decoration: none;
+    color: #38AE54;
+    margin-right: 63px;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    position: relative;
+}
+
+a::after{
+    content: "";
+    position: absolute;
+    background-color: #38AE54;
+    height: 3px;
+    width: 0;
+    left: 0;
+    transition: 0.3s;
+    bottom: -10px;
+}
+
+a:hover::after{
+    width: 100%;
+    
+}
+
+a:hover{
+    font-weight: 500;
+}
+
+
+.landingPage{
+    margin-top: 70px;
+    margin-bottom: 100px;
+}
+
+.OS{
+    margin-top: 80px;
+}
+
+.background{
+    margin-top: 80px;
+
+}
+
+.features{
+    margin-top: 80px;
+  
+}
+
+.distinction{
+    margin-top: 80px;
+}
+
+.creatives{
+    margin-top: 80px;
+    background-color:  #F2FEF2;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.footer{
+    color: #38AE54;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding: 30px;
+}
+
